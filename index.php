@@ -11,7 +11,7 @@ $users = [
 ];
 
 // Ho utilizzato il metodo foreach per ciclare facilmente tutto l'array, ed all'interno ho utilizzato l'if per specificare il saluto in base al genere che c'èera in ogni array associativo
-foreach ($users as $pippo) {
+foreach ($users as $user) {
     if ($user['gender'] == 'U') {
     echo "Buongiorno Sig. " . $user['name'] . " " . $user['surname'] . "\n";
     }
